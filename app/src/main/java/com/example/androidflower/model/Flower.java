@@ -1,5 +1,6 @@
 package com.example.androidflower.model;
 
+<<<<<<< HEAD
 import com.example.androidflower.R;
 
 import java.util.ArrayList;
@@ -13,12 +14,21 @@ public class Flower {
     public Flower(int image, String name) {
         this.image = image;
         this.name = name;
+=======
+public class Flower {
+
+    private int image;
+
+    public Flower(int image ){
+        this.image = image;
+>>>>>>> 2c4e3f7d4809032205010cdffef2a42f4d5a3b7d
     }
 
     public int getImage() {
         return image;
     }
 
+<<<<<<< HEAD
     public String getName() {
         return name;
     }
@@ -55,4 +65,6 @@ public class Flower {
         return list;
     }
 
+=======
+>>>>>>> 2c4e3f7d4809032205010cdffef2a42f4d5a3b7d
 }
