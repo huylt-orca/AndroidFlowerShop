@@ -38,7 +38,7 @@ public class FlowerHomeApdater extends RecyclerView.Adapter<FlowerHomeApdater.Fl
         if (flowerHome == null){
             return;
         }
-        holder.tvNameFlowerHome.setText(flowerHome.getName());
+//        holder.tvNameFlowerHome.setText(flowerHome.getName());
         holder.imgFlowerHome.setImageResource(flowerHome.getImage());
     }
 
