@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FF7373"
-    tools:context=".activity.LoginActivity">
+    tools:context=".activity.RegisterActivity">
 
 
     <TextView
@@ -31,7 +31,11 @@
         android:layout_below="@+id/textTitle"
         android:textSize="16dp"
         android:textStyle="bold"
-        android:text="Mua hoa không cần nhìn giá, chỉ cần nhìn cô chủ tiệm"
+        android:text="Bước chân đến ngay khu chợ hoa,\n
+        Cô chủ bán hoa tươi cười khoe vẻ đẹp\n
+        Nụ cười tràn đầy hiền hậu, tươi tắn,\n
+        Hoa tươi tắn cùng khuôn mặt tươi cười rạng ngời.
+        "
         />
 
 
@@ -69,16 +73,33 @@
         android:drawablePadding="5dp"
         />
 
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Confirm Password"
+        android:textSize="20dp"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_baseline_password_24"
+        android:drawablePadding="5dp"
+        />
+
     <Button
         android:id="@+id/loginbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/password"
+        android:layout_below="@id/confirm_password"
         android:layout_margin="10dp"
         android:padding="10dp"
         android:textSize="20dp"
         android:backgroundTint="@color/red"
-        android:text="LOG IN"
+        android:text="Sign up"
         />
 
     <LinearLayout
@@ -98,7 +119,7 @@
             android:textSize="15dp"
             android:textStyle="bold"
             android:gravity="center"
-            android:text="Don't have account? "
+            android:text="Already have account? "
             />
 
         <TextView
@@ -109,7 +130,7 @@
             android:textSize="15dp"
             android:textStyle="bold"
             android:gravity="center"
-            android:text="Register now"
+            android:text="Login now"
             />
 
     </LinearLayout>

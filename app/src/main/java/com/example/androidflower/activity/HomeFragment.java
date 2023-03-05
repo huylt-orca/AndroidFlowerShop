@@ -14,7 +14,7 @@ package com.example.androidflower.activity;
 //import android.view.ViewGroup;
 //
 //import com.example.androidflower.R;
-//import com.example.androidflower.apdater.FlowerHomeApdater;
+//import com.example.androidflower.adapter.FlowerAdapter.FlowerHomeApdater;
 //import com.example.androidflower.model.Flower;
 //
 //

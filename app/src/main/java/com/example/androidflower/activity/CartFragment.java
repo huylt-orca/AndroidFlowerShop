@@ -36,18 +36,18 @@ public class CartFragment extends Fragment {
 
         List<Flower> FlowerList = new ArrayList<>();
 
-        FlowerList.add(new Flower(R.drawable.hoa_1 ));
-        FlowerList.add(new Flower(R.drawable.bg_4 ));
-        FlowerList.add(new Flower(R.drawable.hoa_1 ));
-        FlowerList.add(new Flower(R.drawable.bg_2 ));
-        FlowerList.add(new Flower(R.drawable.bg_2 ));
-        FlowerList.add(new Flower(R.drawable.hoa_1 ));
-        FlowerList.add(new Flower(R.drawable.hoa_1 ));
-        FlowerList.add(new Flower(R.drawable.hoa_1 ));
-        FlowerList.add(new Flower(R.drawable.hoa_1 ));
-        FlowerList.add(new Flower(R.drawable.hoa_1 ));
-        FlowerList.add(new Flower(R.drawable.hoa_1 ));
-        FlowerList.add(new Flower(R.drawable.hoa_1 ));
+        FlowerList.add(new Flower(R.drawable.hoa_1 ,"hoa"));
+        FlowerList.add(new Flower(R.drawable.bg_4 ,"hoa"));
+        FlowerList.add(new Flower(R.drawable.hoa_1 ,"hoa"));
+        FlowerList.add(new Flower(R.drawable.bg_2 ,"hoa"));
+        FlowerList.add(new Flower(R.drawable.bg_2 ,"hoa"));
+        FlowerList.add(new Flower(R.drawable.hoa_1 ,"hoa"));
+        FlowerList.add(new Flower(R.drawable.hoa_1,"hoa" ));
+        FlowerList.add(new Flower(R.drawable.hoa_1,"hoa" ));
+        FlowerList.add(new Flower(R.drawable.hoa_1,"hoa" ));
+        FlowerList.add(new Flower(R.drawable.hoa_1,"hoa" ));
+        FlowerList.add(new Flower(R.drawable.hoa_1 ,"hoa"));
+        FlowerList.add(new Flower(R.drawable.hoa_1 ,"hoa"));
 
         FlowerAdapter flowerAdapter = new FlowerAdapter(FlowerList);
 
