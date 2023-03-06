@@ -1,6 +1,6 @@
 package com.example.androidflower.model;
 
-//<<<<<<< HEAD
+
 import com.example.androidflower.R;
 
 import java.util.ArrayList;
@@ -12,6 +12,33 @@ public class Flower {
     private int image;
     private String name;
     private double price;
+    private int status;
+    private int quantity;
+    private String description;
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public Flower(int image, String name) {
         this.image = image;

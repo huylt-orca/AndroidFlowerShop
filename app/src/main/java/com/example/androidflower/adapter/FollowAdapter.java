@@ -18,6 +18,10 @@ public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.FollowView
 
     private List<Flower> list ;
 
+    public FollowAdapter(List<Flower> list) {
+        this.list = list;
+    }
+
     @NonNull
     @Override
     public FollowViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

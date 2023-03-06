@@ -13,6 +13,7 @@ import android.widget.ListView;
 
 import com.example.androidflower.R;
 import com.example.androidflower.adapter.FlowerAdapter;
+import com.example.androidflower.adapter.FollowAdapter;
 import com.example.androidflower.model.Flower;
 
 import java.util.ArrayList;
@@ -32,9 +33,9 @@ public class FollowFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(this.getContext() , LinearLayoutManager.VERTICAL , false));
 
 
-        FlowerAdapter flowerAdapter = new FlowerAdapter(Flower.getListFlower());
+        FollowAdapter followAdapter = new FollowAdapter(Flower.getListFlower());
 
-        recyclerView.setAdapter(flowerAdapter);
+        recyclerView.setAdapter(followAdapter);
         return view;
     }
 }

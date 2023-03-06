@@ -12,24 +12,38 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.AndroidFlower"
         tools:targetApi="31">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".activity.RegisterActivity"
+            android:parentActivityName=".activity.MainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".UpdateProfile"
+            android:name=".activity.UpdateProfile"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
-            android:name=".ShowDetailActivity"
+
+            android:name=".activity.LoginActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.MainActivity"
+            >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name=".activity.ShowDetailActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"

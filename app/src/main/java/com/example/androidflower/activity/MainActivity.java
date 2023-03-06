@@ -3,6 +3,7 @@ package com.example.androidflower.activity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     case R.id.profile:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,profileFragment).commit();
+//                            startActivity(new Intent(MainActivity.this,ShowDetailActivity.class));
                         return true;
                 }
 
